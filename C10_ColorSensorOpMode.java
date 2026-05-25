@@ -9,6 +9,7 @@ import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 @TeleOp()
 public class C10_ColorSensorOpMode extends OpMode {
     private PB_ColorSensor colorSensor = null;
+    @Overide
     public void loop() {
         telemetry.addData("Red", colorSensor.getRed());
         telemetry.addData("Green", colorSensor.getGreen());
