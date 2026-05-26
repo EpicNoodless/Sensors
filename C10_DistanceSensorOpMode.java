@@ -5,7 +5,7 @@ import com.qualcomm.robotcore.hardware.DistanceSensor;
 import com.qualcomm.robotcore.hardware.HardwareMap;
 import org.firstinspires.ftc.robotcore.external.navigation.DistanceUnit;
 @TeleOp
-public class C10_DistanceSensorOpmode extends OpMode{
+public class C10_DistanceSensorOpMode extends OpMode{
     private PB_DistanceSensor distanceSensor = new PB_DistanceSensor();
     @Overide
     public void loop() {
